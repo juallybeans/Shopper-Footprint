@@ -3,7 +3,7 @@ Shopper's Footprint is a single-page web application designed to help users visu
 
 The core of the app is a "Package Pile" — a visual dashboard where each logged item appears as a box. The size of the box is directly proportional to the item's estimated carbon footprint, providing an immediate, intuitive understanding of its environmental cost.
 
-# Key Features
+## Key Features
 - AI-Powered Logging: Upload a photo of a purchased item, and the app uses the Gemini API to automatically identify the object, estimate its carbon footprint, and pre-fill the logging form.
 
 - Manual Logging: Users can also log purchases manually, entering the item description and its carbon footprint if known.
@@ -14,7 +14,7 @@ The core of the app is a "Package Pile" — a visual dashboard where each logged
 
 - Interactive Details: Click on any package in the pile to view its details in a clean, modern modal window.
 
-# Tech Stack
+## Tech Stack
 - Frontend: Vue.js, Javascript
 
 - Backend: Flask (Python)
@@ -23,10 +23,10 @@ The core of the app is a "Package Pile" — a visual dashboard where each logged
 
 - AI Model: Google Gemini 1.5 Flash Latest
 
-# How to Run the Application
+## How to Run the Application
 Follow these steps to set up and run the project on your local machine.
 
-## 1. Backend Setup (Flask)
+### 1. Backend Setup (Flask)
 
 1. Project Files: Place the backend files (app.py, requirements.txt, .env) in a dedicated folder.
 
@@ -47,7 +47,7 @@ flask run
 ```
 The backend will now be running at http://127.0.0.1:5000.
 
-## 2. Frontend Setup
+### 2. Frontend Setup
 1. No Installation Needed: The frontend is a single index.html file with no build steps.
 
 2. Open in Browser: Simply open the index.html file in any modern web browser.
